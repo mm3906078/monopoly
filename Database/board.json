@@ -1,0 +1,846 @@
+{
+    "board": [
+        {
+            "order": 1,
+            "name": "Go",
+            "space_type": "corner_square",
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": true
+            },
+            "owner": null
+        },
+        {
+            "order": 2,
+            "name": "Old Kent Road",
+            "space_type": "properties",
+            "owner": null,
+            "color": "brown",
+            "money": {
+                "amount": 60,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 2,
+                "monopoly": 4,
+                "with_house": {
+                    "house_1": 10,
+                    "house_2": 30,
+                    "house_3": 90,
+                    "house_4": 160,
+                    "hotel": 250
+                }
+            },
+            "prices": {
+                "printed_price": 60,
+                "mortgage_value": 30,
+                "building_costs": 50
+            }
+        },
+        {
+            "order": 3,
+            "name": "Community Chest",
+            "space_type": "community_chest",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 4,
+            "name": "Whitechapel Road",
+            "space_type": "properties",
+            "owner": null,
+            "color": "brown",
+            "money": {
+                "amount": 60,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 4,
+                "monopoly": 8,
+                "with_house": {
+                    "house_1": 20,
+                    "house_2": 60,
+                    "house_3": 180,
+                    "house_4": 320,
+                    "hotel": 450
+                }
+            },
+            "prices": {
+                "printed_price": 60,
+                "mortgage_value": 30,
+                "building_costs": 50
+            }
+        },
+        {
+            "order": 5,
+            "name": "Income Tax",
+            "space_type": "income_tax",
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 6,
+            "name": "King's Cross Station",
+            "space_type": "railroad",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 25,
+                "owned_2": 50,
+                "owned_3": 100,
+                "owned_4": 200
+            },
+            "prices": {
+                "mortgage_value": 100
+            }
+        },
+        {
+            "order": 7,
+            "name": "The Angel Islington",
+            "space_type": "properties",
+            "owner": null,
+            "color": "blue",
+            "money": {
+                "amount": 100,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 6,
+                "monopoly": 12,
+                "with_house": {
+                    "house_1": 30,
+                    "house_2": 90,
+                    "house_3": 270,
+                    "house_4": 400,
+                    "hotel": 550
+                }
+            },
+            "prices": {
+                "printed_price": 100,
+                "mortgage_value": 50,
+                "building_costs": 50
+            }
+        },
+        {
+            "order": 8,
+            "name": "Chance",
+            "space_type": "chance",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 9,
+            "name": "Euston Road",
+            "space_type": "properties",
+            "owner": null,
+            "color": "blue",
+            "money": {
+                "amount": 100,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 6,
+                "monopoly": 12,
+                "with_house": {
+                    "house_1": 30,
+                    "house_2": 90,
+                    "house_3": 270,
+                    "house_4": 400,
+                    "hotel": 550
+                }
+            },
+            "prices": {
+                "printed_price": 100,
+                "mortgage_value": 50,
+                "building_costs": 50
+            }
+        },
+        {
+            "order": 10,
+            "name": "Pentonville Road",
+            "space_type": "properties",
+            "owner": null,
+            "color": "blue",
+            "money": {
+                "amount": 100,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 8,
+                "monopoly": 16,
+                "with_house": {
+                    "house_1": 40,
+                    "house_2": 100,
+                    "house_3": 300,
+                    "house_4": 450,
+                    "hotel": 600
+                }
+            },
+            "prices": {
+                "printed_price": 120,
+                "mortgage_value": 60,
+                "building_costs": 50
+            }
+        },
+        {
+            "order": 11,
+            "name": "Jail",
+            "space_type": "corner_square",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 12,
+            "name": "Pall Mall",
+            "space_type": "properties",
+            "owner": null,
+            "color": "purple",
+            "money": {
+                "amount": 140,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 10,
+                "monopoly": 20,
+                "with_house": {
+                    "house_1": 50,
+                    "house_2": 150,
+                    "house_3": 450,
+                    "house_4": 625,
+                    "hotel": 750
+                }
+            },
+            "prices": {
+                "printed_price": 140,
+                "mortgage_value": 70,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 13,
+            "name": "Electric Company",
+            "space_type": "utility",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 150,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 4,
+                "owned_2": 10
+            },
+            "prices": {
+                "mortgage_value": 75
+            }
+        },
+        {
+            "order": 14,
+            "name": "Whitehall",
+            "space_type": "properties",
+            "owner": null,
+            "color": "purple",
+            "money": {
+                "amount": 140,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 10,
+                "monopoly": 20,
+                "with_house": {
+                    "house_1": 50,
+                    "house_2": 150,
+                    "house_3": 450,
+                    "house_4": 625,
+                    "hotel": 750
+                }
+            },
+            "prices": {
+                "printed_price": 140,
+                "mortgage_value": 70,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 15,
+            "name": "Northumberland Avenue",
+            "space_type": "properties",
+            "owner": null,
+            "color": "purple",
+            "money": {
+                "amount": 160,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 12,
+                "monopoly": 24,
+                "with_house": {
+                    "house_1": 60,
+                    "house_2": 180,
+                    "house_3": 500,
+                    "house_4": 700,
+                    "hotel": 900
+                }
+            },
+            "prices": {
+                "printed_price": 160,
+                "mortgage_value": 80,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 16,
+            "name": "Marylebone Station",
+            "space_type": "railroad",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 25,
+                "owned_2": 50,
+                "owned_3": 100,
+                "owned_4": 200
+            },
+            "prices": {
+                "mortgage_value": 100
+            }
+        },
+        {
+            "order": 17,
+            "name": "Bow Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "orange",
+            "money": {
+                "amount": 180,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 14,
+                "monopoly": 28,
+                "with_house": {
+                    "house_1": 70,
+                    "house_2": 200,
+                    "house_3": 550,
+                    "house_4": 750,
+                    "hotel": 950
+                }
+            },
+            "prices": {
+                "printed_price": 180,
+                "mortgage_value": 90,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 18,
+            "name": "Community Chest",
+            "space_type": "community_chest",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 19,
+            "name": "Marlborough Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "orange",
+            "money": {
+                "amount": 180,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 14,
+                "monopoly": 28,
+                "with_house": {
+                    "house_1": 70,
+                    "house_2": 200,
+                    "house_3": 550,
+                    "house_4": 750,
+                    "hotel": 950
+                }
+            },
+            "prices": {
+                "printed_price": 180,
+                "mortgage_value": 90,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 20,
+            "name": "Vine Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "orange",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 16,
+                "monopoly": 32,
+                "with_house": {
+                    "house_1": 80,
+                    "house_2": 220,
+                    "house_3": 600,
+                    "house_4": 800,
+                    "hotel": 1000
+                }
+            },
+            "prices": {
+                "printed_price": 200,
+                "mortgage_value": 100,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 21,
+            "name": "Free Parking",
+            "space_type": "corner_square",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 22,
+            "name": "Strand",
+            "space_type": "properties",
+            "owner": null,
+            "color": "red",
+            "money": {
+                "amount": 220,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 16,
+                "monopoly": 32,
+                "with_house": {
+                    "house_1": 80,
+                    "house_2": 220,
+                    "house_3": 600,
+                    "house_4": 800,
+                    "hotel": 1000
+                }
+            },
+            "prices": {
+                "printed_price": 200,
+                "mortgage_value": 100,
+                "building_costs": 100
+            }
+        },
+        {
+            "order": 23,
+            "name": "Chance",
+            "space_type": "chance",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 24,
+            "name": "Fleet Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "red",
+            "money": {
+                "amount": 220,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 18,
+                "monopoly": 36,
+                "with_house": {
+                    "house_1": 90,
+                    "house_2": 250,
+                    "house_3": 700,
+                    "house_4": 875,
+                    "hotel": 1050
+                }
+            },
+            "prices": {
+                "printed_price": 220,
+                "mortgage_value": 110,
+                "building_costs": 150
+            }
+        },
+        {
+            "order": 25,
+            "name": "Trafalgar Square",
+            "space_type": "properties",
+            "owner": null,
+            "color": "red",
+            "money": {
+                "amount": 240,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 20,
+                "monopoly": 40,
+                "with_house": {
+                    "house_1": 100,
+                    "house_2": 300,
+                    "house_3": 750,
+                    "house_4": 925,
+                    "hotel": 1100
+                }
+            },
+            "prices": {
+                "printed_price": 240,
+                "mortgage_value": 120,
+                "building_costs": 150
+            }
+        },
+        {
+            "order": 26,
+            "name": "Fenchurch St Station",
+            "space_type": "railroad",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 25,
+                "owned_2": 50,
+                "owned_3": 100,
+                "owned_4": 200
+            },
+            "prices": {
+                "mortgage_value": 100
+            }
+        },
+        {
+            "order": 27,
+            "name": "Leicester Square",
+            "space_type": "properties",
+            "owner": null,
+            "color": "yellow",
+            "money": {
+                "amount": 260,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 22,
+                "monopoly": 44,
+                "with_house": {
+                    "house_1": 110,
+                    "house_2": 330,
+                    "house_3": 800,
+                    "house_4": 975,
+                    "hotel": 1150
+                }
+            },
+            "prices": {
+                "printed_price": 300,
+                "mortgage_value": 150,
+                "building_costs": 150
+            }
+        },
+        {
+            "order": 28,
+            "name": "Coventry Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "yellow",
+            "money": {
+                "amount": 260,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 22,
+                "monopoly": 44,
+                "with_house": {
+                    "house_1": 110,
+                    "house_2": 330,
+                    "house_3": 800,
+                    "house_4": 975,
+                    "hotel": 1150
+                }
+            },
+            "prices": {
+                "printed_price": 260,
+                "mortgage_value": 130,
+                "building_costs": 150
+            }
+        },
+        {
+            "order": 29,
+            "name": "Water Works",
+            "space_type": "utility",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 150,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 4,
+                "owned_2": 10
+            },
+            "prices": {
+                "mortgage_value": 75
+            }
+        },
+        {
+            "order": 30,
+            "name": "Piccadilly",
+            "space_type": "properties",
+            "owner": null,
+            "color": "yellow",
+            "money": {
+                "amount": 280,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 24,
+                "monopoly": 48,
+                "with_house": {
+                    "house_1": 120,
+                    "house_2": 360,
+                    "house_3": 850,
+                    "house_4": 1025,
+                    "hotel": 1200
+                }
+            },
+            "prices": {
+                "printed_price": 280,
+                "mortgage_value": 140,
+                "building_costs": 150
+            }
+        },
+        {
+            "order": 31,
+            "name": "Go to Jail",
+            "space_type": "corner_square",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 32,
+            "name": "Regent Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "green",
+            "money": {
+                "amount": 300,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 26,
+                "monopoly": 52,
+                "with_house": {
+                    "house_1": 130,
+                    "house_2": 390,
+                    "house_3": 900,
+                    "house_4": 1100,
+                    "hotel": 1275
+                }
+            },
+            "prices": {
+                "printed_price": 300,
+                "mortgage_value": 150,
+                "building_costs": 200
+            }
+        },
+        {
+            "order": 33,
+            "name": "Oxford Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "green",
+            "money": {
+                "amount": 300,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 26,
+                "monopoly": 52,
+                "with_house": {
+                    "house_1": 130,
+                    "house_2": 390,
+                    "house_3": 900,
+                    "house_4": 1100,
+                    "hotel": 1275
+                }
+            },
+            "prices": {
+                "printed_price": 300,
+                "mortgage_value": 150,
+                "building_costs": 200
+            }
+        },
+        {
+            "order": 34,
+            "name": "Community Chest",
+            "space_type": "community_chest",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 35,
+            "name": "Bond Street",
+            "space_type": "properties",
+            "owner": null,
+            "color": "green",
+            "money": {
+                "amount": 320,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 28,
+                "monopoly": 56,
+                "with_house": {
+                    "house_1": 150,
+                    "house_2": 450,
+                    "house_3": 1000,
+                    "house_4": 1200,
+                    "hotel": 1400
+                }
+            },
+            "prices": {
+                "printed_price": 320,
+                "mortgage_value": 160,
+                "building_costs": 200
+            }
+        },
+        {
+            "order": 36,
+            "name": "Liverpool Street Station",
+            "space_type": "railroad",
+            "owner": null,
+            "color": "white",
+            "money": {
+                "amount": 200,
+                "cash_in": false
+            },
+            "rent": {
+                "owned_1": 25,
+                "owned_2": 50,
+                "owned_3": 100,
+                "owned_4": 200
+            },
+            "prices": {
+                "mortgage_value": 100
+            }
+        },
+        {
+            "order": 37,
+            "name": "Chance",
+            "space_type": "chance",
+            "color": "white",
+            "money": {
+                "amount": 0,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 38,
+            "name": "Park Lane",
+            "space_type": "properties",
+            "owner": null,
+            "color": "koamaru",
+            "money": {
+                "amount": 350,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 35,
+                "monopoly": 70,
+                "with_house": {
+                    "house_1": 175,
+                    "house_2": 500,
+                    "house_3": 1100,
+                    "house_4": 1300,
+                    "hotel": 1500
+                }
+            },
+            "prices": {
+                "printed_price": 350,
+                "mortgage_value": 175,
+                "building_costs": 200
+            }
+        },
+        {
+            "order": 39,
+            "name": "Super Tax",
+            "space_type": "luxury_tax",
+            "color": "white",
+            "money": {
+                "amount": 100,
+                "cash_in": false
+            },
+            "owner": null
+        },
+        {
+            "order": 40,
+            "name": "Mayfair",
+            "space_type": "properties",
+            "owner": null,
+            "color": "koamaru",
+            "money": {
+                "amount": 400,
+                "cash_in": false
+            },
+            "rent": {
+                "alone": 50,
+                "monopoly": 100,
+                "with_house": {
+                    "house_1": 200,
+                    "house_2": 600,
+                    "house_3": 1400,
+                    "house_4": 1700,
+                    "hotel": 2000
+                }
+            },
+            "prices": {
+                "printed_price": 400,
+                "mortgage_value": 200,
+                "building_costs": 200
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+tags:
+  - name: Game
+post:
+  description: Start a new game
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          turn of alireza
+    '400':
+      description: Forbidden

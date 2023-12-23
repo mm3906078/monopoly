@@ -1,0 +1,38 @@
+tags:
+  - name: Users
+post:
+  description: create a new user
+parameters:
+  - name: name
+    in: path
+    required: true
+    schema:
+      type: object
+      properties:
+        name:
+          type: string
+          example: alireza
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          {
+            "asset": [],
+            "id": "2a98da62-8413-4486-8b6b-dc04c4cea810",
+            "jail": false,
+            "jail_card": false,
+            "jail_turns": 0,
+            "money": 1500,
+            "name": "alireza",
+            "position": 0,
+            "properties": [],
+            "role_the_dice": false,
+            "turn": false
+          }
+    '409':
+      description: Already exists
+    '400':
+      description: Forbidden

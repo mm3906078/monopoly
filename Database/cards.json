@@ -1,0 +1,620 @@
+{
+	"chance_card": [
+		{
+			"number": 1,
+			"narration": "Advance to Go (Collect £200)",
+			"action": "move_money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": 1,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 2,
+			"narration": "Advance to Trafalgar Square. If you pass Go, collect £200",
+			"action": "move_money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": true,
+				"requisite": {
+					"status": true,
+					"condition": "pass_go"
+				}
+			},
+			"move": {
+				"properties": 25,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 3,
+			"narration": "Advance to Mayfair",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash": null,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": 40,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 4,
+			"narration": "Advance to Pall Mall. If you pass Go, collect £200",
+			"action": "move_money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": true,
+				"requisite": {
+					"status": true,
+					"condition": "pass_go"
+				}
+			},
+			"move": {
+				"properties": 12,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 5,
+			"narration": "Advance to the nearest Station. If unowned, you may buy it from the Bank. If owned, pay wonder twice the rental to which they are otherwise entitled",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "owned"
+				}
+			},
+			"move": {
+				"properties": 999,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 6,
+			"narration": "Advance to the nearest Station. If unowned, you may buy it from the Bank. If owned, pay wonder twice the rental to which they are otherwise entitled",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "owned"
+				}
+			},
+			"move": {
+				"properties": 999,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 7,
+			"narration": "Advance to nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total ten times amount thrown",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "owned"
+				}
+			},
+			"move": {
+				"properties": 998,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 8,
+			"narration": "Bank pays you dividend of £50",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 50,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 9,
+			"narration": "Get Out of Jail Free",
+			"action": "asset",
+			"asset": "Jail Card",
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 10,
+			"narration": "Go Back 3 Spaces",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": 3
+			}
+		},
+		{
+			"number": 11,
+			"narration": "Go to Jail. Go directly to Jail, do not pass Go, do not collect £200",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": 11,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 12,
+			"narration": "Make general repairs on all your property. For each house pay £25. For each hotel pay £100",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": {
+					"house": 25,
+					"hotel": 100
+				},
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "owned"
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 13,
+			"narration": "Speeding fine £15",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 15,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 14,
+			"narration": "Take a trip to Kings Cross Station. If you pass Go, collect £200",
+			"action": "move_money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "pass_go"
+				}
+			},
+			"move": {
+				"properties": 6,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 15,
+			"narration": "You have been elected Chairman of the Board. Pay each player £50",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 50,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 16,
+			"narration": "Your building loan matures. Collect £150",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 150,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		}
+	],
+	"community_card": [
+		{
+			"number": 1,
+			"narration": "Advance to Go (Collect £200)",
+			"action": "move_money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": 1,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 2,
+			"narration": "Bank error in your favour. Collect £200",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 200,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 3,
+			"narration": "Doctor’s fee. Pay £50",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 50,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 4,
+			"narration": "From sale of stock you get £50",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 50,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 5,
+			"narration": "Get Out of Jail Free",
+			"action": "asset",
+			"asset": "Jail Card",
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 6,
+			"narration": "Go to Jail. Go directly to jail, do not pass Go, do not collect £200",
+			"action": "move",
+			"asset": null,
+			"money": {
+				"amount": 0,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": 11,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 7,
+			"narration": "Holiday fund matures. Receive £100",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 100,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 8,
+			"narration": "Income tax refund. Collect £20",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 20,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 9,
+			"narration": "It is your birthday. Collect £10 from every player",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 10,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 10,
+			"narration": "Life insurance matures. Collect £100",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 100,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 11,
+			"narration": "Pay hospital fees of £100",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 100,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 12,
+			"narration": "Pay school fees of £50",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 50,
+				"cash_in": false,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 13,
+			"narration": "Receive £25 consultancy fee",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 25,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 14,
+			"narration": "You are assessed for street repairs. £40 per house. £115 per hotel",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": {
+					"house": 40,
+					"hotel": 115
+				},
+				"cash_in": false,
+				"requisite": {
+					"status": true,
+					"condition": "owned"
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 15,
+			"narration": "You have won second prize in a beauty contest. Collect £10",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 10,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		},
+		{
+			"number": 16,
+			"narration": "You inherit £100",
+			"action": "money",
+			"asset": null,
+			"money": {
+				"amount": 100,
+				"cash_in": true,
+				"requisite": {
+					"status": false,
+					"condition": null
+				}
+			},
+			"move": {
+				"properties": null,
+				"forward": false,
+				"step": null
+			}
+		}
+	]
+}

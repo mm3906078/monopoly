@@ -1,0 +1,14 @@
+tags:
+  - name: Game
+post:
+  description: Status of the game
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          {"status": "started"}
+    '400':
+      description: Forbidden

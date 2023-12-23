@@ -1,0 +1,34 @@
+tags:
+  - name: Game
+post:
+  description: Status of the game
+parameters:
+  - name: player_id
+    in: path
+    required: true
+    schema:
+      type: object
+      properties:
+        name:
+          type: string
+          example: 2a98da62-8413-4486-8b6b-dc04c4cea810
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          {
+            "color": "white",
+            "money": {
+            "amount": 200,
+            "cash_in": true
+            },
+            "name": "Go",
+            "order": 1,
+            "owner": null,
+            "space_type": "corner_square"
+          }
+    '400':
+      description: Forbidden

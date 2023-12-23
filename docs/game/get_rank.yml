@@ -1,0 +1,15 @@
+tags:
+  - name: Game
+post:
+  description: Rank of players in game
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          {
+            "bot01": "Unknown",
+            "bot02": "Unknown"
+          }

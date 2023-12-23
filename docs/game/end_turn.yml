@@ -1,0 +1,24 @@
+tags:
+  - name: Game
+post:
+  description: End the turn of the player
+parameters:
+  - name: player_id
+    in: path
+    required: true
+    schema:
+      type: object
+      properties:
+        name:
+          type: string
+          example: 2a98da62-8413-4486-8b6b-dc04c4cea810
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: User response
+        type: object
+        example:
+          turn of alireza ended
+    '400':
+      description: Forbidden

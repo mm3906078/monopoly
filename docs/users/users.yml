@@ -1,0 +1,26 @@
+tags:
+  - name: Users
+get:
+  description: This endpoint returns a list of users and their information
+responses:
+    '200':
+      description: Successful response
+      schema:
+        title: Valid Prediction Response
+        type: object
+        example:
+          "players": [
+              {
+                "asset": [],
+                "id": "2a98da62-8413-4486-8b6b-dc04c4cea810",
+                "jail": false,
+                "jail_card": false,
+                "jail_turns": 0,
+                "money": 1500,
+                "name": "alireza",
+                "position": 0,
+                "properties": [],
+                "role_the_dice": false,
+                "turn": false
+              }
+            ]
